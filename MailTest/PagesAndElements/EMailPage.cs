@@ -10,11 +10,9 @@ namespace FunctionalTests.PagesAndElements
         private IWebElement WriteALetterButton => FindElementByXPath(".//div[@id='LEGO']/div[@class = 'b-sticky']//span[.='Написать письмо']");
         private IWebElement Logo => FindElementByXPath(".//a[@class='pm-logo__link']");
         private IWebElement RecipientEmailInput => FindElementByXPath(".//div[@data-blockid='compose_to']/div");
-
         private IWebElement TitleEmailInput => FindElementByXPath(".//input[@name='Subject']");
         private IWebElement MessageIframe => FindElementByXPath(".//iframe[contains(@id, 'toolkit')]");
         private IWebElement MesageInput => FindElementById("tinymce");
-        private IWebElement SendButton => FindElementByXPath(".//div[@class='b-sticky js-not-sticky']//span[.='Отправить']");
         private IWebElement SendedTitle => FindElementByXPath(".//div[@class='message-sent__title']");
         public override void BrowseWaitVisible()
         {
@@ -32,9 +30,8 @@ namespace FunctionalTests.PagesAndElements
             driver.SwitchTo().Frame(MessageIframe);
             WaitRedyControl(MesageInput);
             MesageInput.SendKeys(messege);
+            MesageInput.SendKeys(Keys.Control + Keys.Enter);
             driver.SwitchTo().DefaultContent();
-            WaitRedyControl(SendButton);
-            SendButton.Click();
             WaitRedyControl(SendedTitle, "Ваше письмо отправлено. Перейти во Входящие");
         }
     }
