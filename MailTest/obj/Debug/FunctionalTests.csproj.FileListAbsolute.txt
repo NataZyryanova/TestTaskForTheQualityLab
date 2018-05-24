@@ -1,0 +1,12 @@
+C:\Workspace\MailTest\MailTest\obj\Debug\FunctionalTests.csproj.CoreCompileInputs.cache
+C:\Workspace\MailTest\MailTest\obj\Debug\MailTest.exe
+C:\Workspace\MailTest\MailTest\obj\Debug\MailTest.pdb
+C:\Workspace\MailTest\MailTest\bin\Debug\MailTest.exe.config
+C:\Workspace\MailTest\MailTest\bin\Debug\MailTest.exe
+C:\Workspace\MailTest\MailTest\bin\Debug\MailTest.pdb
+C:\Workspace\MailTest\MailTest\bin\Debug\nunit.framework.dll
+C:\Workspace\MailTest\MailTest\bin\Debug\WebDriver.dll
+C:\Workspace\MailTest\MailTest\bin\Debug\nunit.framework.xml
+C:\Workspace\MailTest\MailTest\bin\Debug\WebDriver.xml
+C:\Workspace\MailTest\MailTest\obj\Debug\FunctionalTests.csproj.CopyComplete
+C:\Workspace\MailTest\MailTest\obj\Debug\FunctionalTests.csprojAssemblyReference.cache
